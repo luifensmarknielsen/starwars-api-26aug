@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Starwars API test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon-r2d2.png" type="image/x-icon"/>
+    <title>Star Wars API</title>
 </head>
-<body>
+
+<body class=" animate__animated animate__rotateIn">
+
+    <main>
+        <a href=""><img src="Star_Wars_logo-1.png" alt=""></a>
+        <ul id="peopleList"></ul>
+    </main>
+
+
+    <template id="template">
+        <li>
+            <a href="" class="listItem"></a>
+        </li>
+    </template>
+
     <script src="starwars.js"></script>
 </body>
+
 </html>
